@@ -2,10 +2,11 @@
 #include <iomanip>
 
 int main() {
-    double asset = 0;
-    double monthly_investment = 0;
-    double annual_rate = 0;
-    double target_asset = 0; 
+    double asset;
+    double monthly_investment;
+    double annual_rate;
+    double target_asset; 
+    double input_rate;
 
     std::cout << "現在の資産を入力してください：";
     std::cin >> asset;
@@ -14,7 +15,6 @@ int main() {
     std::cin >> monthly_investment;
     
     std::cout << "年利（％）を入れてください：";
-    double input_rate;
     std::cin >> input_rate;
     annual_rate = 1.0 + (input_rate / 100.0);
 
