@@ -1,0 +1,7 @@
+# 実行ファイルを除外
+hello_cpp
+*.exe
+
+# VSCodeの設定ファイルを除外
+.vscode/
+
