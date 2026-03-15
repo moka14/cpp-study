@@ -5,3 +5,4 @@ hello_cpp
 # VSCodeの設定ファイルを除外
 .vscode/
 
+build/
