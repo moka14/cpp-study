@@ -7,4 +7,5 @@ This is my first C++ project on WSL2.
 - Compiler: g++
 
 ## How to build
-`g++ main.cpp -o hello_cpp`
+`.build.sh`
+`./build/main_app `
